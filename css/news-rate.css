@@ -1,4 +1,27 @@
 ﻿@media only screen and (max-width:450px) {
+    .transfer-sec .row .col-4 {
+        order: 1 !important;
+    }
+
+    .transfer-sec .row .col-8 {
+        order: 2 !important;
+    }
+
+    .transfer-sec .nice-select {
+        border-left: 1px solid #ced4da !important;
+        border-top-left-radius: 5px !important;
+        border-bottom-left-radius: 5px !important;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-right: 0;
+    }
+    .transfer-sec input {
+        border-top-right-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-left: 0;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -70,6 +93,10 @@
     display: inline-flex;
 }
 
+    .transfer-sec .nice-select {
+        justify-content: center;
+    }
+
     .transfer-sec input {
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
@@ -85,6 +112,7 @@
         align-items: center;
         height: 35px;
         margin: 0;
+        padding: 0;
     }
 
         .transfer-sec .nice-select:active, .nice-select.open, .nice-select:focus {
@@ -99,5 +127,32 @@
 
         .transfer-sec .nice-select .current {
             margin-top: 3px;
+            width: 100%;
+            text-align: center;
         }
 
+    .transfer-sec .list .option {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        max-height: 35px;
+        min-height: 35px;
+        line-height: 35px;
+    }
+
+    .transfer-sec .list li {
+        position: relative;
+    }
+
+.transfer1, .transfer2 {
+    display: flex;
+    align-items: center;
+}
+
+.transfer-icon {
+    top: 6px;
+    position: absolute;
+    left: 15px;
+    max-width: 20px;
+}
