@@ -1,8 +1,4 @@
 ﻿@media only screen and (max-width:991px) {
-    .tab-branch .col-12 {
-        padding-right: 0px;
-    }
-
     .map {
         padding-left: 0px;
         padding-top: 15px;
@@ -23,16 +19,44 @@
 }
 
 @media only screen and (max-width:450px) {
-    .branch-tab {
-        display: none !important;
+    .bottom-btn {
+        justify-content: start !important;
     }
 
-    .nav-bot {
-        display: none !important;
+    .tab-head {
+        padding: 0px 30px !important;
     }
 
-    .pl-sm-0 {
+    .branch-tab li a {
+        font-size: 12px !important;
+    }
+
+    .m-display {
+        display: block !important;
+    }
+
+    .branch-tab li {
+        width: 33.333333% !important;
+        align-items: flex-end;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pl-sm-0px {
         padding-left: 0px !important;
+    }
+
+    .pr-sm-0px {
+        padding-right: 0px !important;
+    }
+
+    .p-sm-0px {
+        padding: 0px !important;
+    }
+
+    .plr-sm-0px {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 }
 
@@ -51,7 +75,7 @@
         color: #005993;
     }
 
-.nav-tabs {
+.tab-branch {
     border-bottom: 1px solid #7ed3f7;
 }
 
@@ -64,6 +88,8 @@
     position: absolute;
     bottom: -1px;
     width: 100%;
+    left: 0;
+    padding: 0px 30px;
 }
 
 .nav-border {
@@ -185,4 +211,23 @@ iframe {
 
 .w-3 {
     width: 33.333333%;
+}
+
+.btn-calculate {
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    color: #fff !important;
+    background: #73d3f7;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+    .btn-calculate:hover {
+        background: #005993;
+    }
+
+
+.m-display {
+    display: none;
 }

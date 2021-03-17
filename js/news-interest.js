@@ -1,7 +1,4 @@
-﻿const breadCum = [
-]
-
-$(document).on('ready', function () {
+﻿$(document).on('ready', function () {
     $('.branch-tab a').on('click', (e) => {
         var index = $(e.currentTarget).data('index');
         $('.nav-border').removeClass('bg-blue-top');
