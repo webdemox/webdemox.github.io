@@ -32,7 +32,7 @@
     }
 
     .tab-head {
-        padding: 0px 30px !important;
+        padding: 0px 15px !important;
     }
 
     .branch-tab li a {
@@ -245,4 +245,8 @@ iframe {
 
 .tbl-top-rate {
     min-width: 700px;
+}
+
+.tab-head .nav-tabs {
+    border: none;
 }

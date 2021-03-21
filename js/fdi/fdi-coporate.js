@@ -23,7 +23,7 @@
 		/*=======================
 		  Extra Scroll JS
 		=========================*/
-        $('#scrollUp').on("click", (e) => {
+        $('.scrollUp').on("click", (e) => {
             var anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $(anchor.attr('href')).offset().top - 0

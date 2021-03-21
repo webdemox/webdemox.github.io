@@ -254,7 +254,7 @@
 }
 
     .paging li {
-        padding: 5px 14px;
+        padding: 3px 13px;
         justify-content: center;
         display: flex;
         text-align: center;
@@ -274,4 +274,18 @@
             display: block;
             width: 100%;
             font-family: 'myriadpro-bold',sans-serif;
+            margin-top: 4px;
         }
+
+            .paging li a svg {
+                margin-top: 5px;
+            }
+
+.footer .links ul li {
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+
+.pt-10px {
+    padding-top: 10px;
+}

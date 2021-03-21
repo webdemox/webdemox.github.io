@@ -7,11 +7,11 @@
         padding-left: 0px !important;
     }
 
-    #scrollUp img:first-child {
+    .scrollUp img:first-child {
         margin-left: 7px !important;
     }
 
-    #scrollUp img {
+    .scrollUp img {
         width: 30px !important;
         height: 30px !important;
     }
