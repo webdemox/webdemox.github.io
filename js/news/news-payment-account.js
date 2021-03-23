@@ -5,6 +5,7 @@ $(document).on('ready', function () {
     $('.branch-tab a').on('click', (e) => {
         var index = $(e.currentTarget).data('index');
         markBorderTab(index);
+        loadFeeTable(index);
     })
 
     $('.fee-item').on('mouseover', (e) => {
@@ -20,10 +21,6 @@ $(document).on('ready', function () {
         loadFeeTable($(e.target).data('index'));
     })
 
-    $('.personal-customer').on('click', (e) => {
-
-    })
-
     $('.child-menu li a').on('click', (e) => {
         let index = $(e.target).data('index');
         loadFeeTable(index);
@@ -34,10 +31,6 @@ $(document).on('ready', function () {
 
         $('.child-menu').removeClass('block');
         $('.child-menu').toggleClass('hide');
-    })
-
-    $('.enterprise-customer').on('click', (e) => {
-
     })
 
     loadFeeTable(11);
