@@ -80,3 +80,19 @@ body, button, input, select, optgroup, textarea {
 .desktop {
     display: block;
 }
+
+.connect-mobile {
+    padding-top: 7px;
+}
+
+.lisence span {
+    line-height: 18px;
+}
+
+.footer-top .row .lisence {
+    line-height: 18px;
+}
+
+.connect {
+    line-height: 20px;
+}

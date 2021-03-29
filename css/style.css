@@ -2128,12 +2128,6 @@ tool:after {
     bottom: 20px;
 }
 
-.icon-w {
-    height: 35px;
-    width: 35px;
-    margin: 5px;
-}
-
 .vietin-icon {
     background-color: #fff;
     border-radius: 10px;
@@ -2147,7 +2141,7 @@ tool:after {
 .down-border {
     border-radius: 10px;
     /*border: 1px solid #ccc;*/
-    height: 45px;
+    height: 30px;
 }
 
 .access:hover {
@@ -2814,4 +2808,13 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 
 .pr-5px {
     padding-right: 5px;
+}
+
+
+.lisence span {
+    line-height: 26px;
+}
+
+.connect-mobile {
+    padding-top: 15px;
 }
