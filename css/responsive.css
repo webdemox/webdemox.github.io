@@ -1376,6 +1376,17 @@
 }
 /* Mobile Screen */
 @media only screen and (max-width: 450px) {
+    .left-logo a img {
+        max-height: 30px !important;
+    }
+
+    .service-slider .owl-controls .owl-nav .owl-prev,
+    .service-slider .owl-controls .owl-nav .owl-next {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
     .pl-sm-7-5 {
         padding-left: 7.5px !important;
     }
