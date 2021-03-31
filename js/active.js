@@ -180,6 +180,10 @@ function initMenu() {
                     $(menu2.offsetParent).height(menu2.offsetParent.dataset.height);
                 }
             }
+            else {
+                $('.menu2').css('background', 'transparent');
+                $('.left-item').css('background', '#fff');
+            }
         }
     });
 
