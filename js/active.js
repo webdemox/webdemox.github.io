@@ -124,28 +124,13 @@ function showProducts() {
         }
     }
     else {
-        if ($('.solution-slider .owl-stage-outer .owl-stage').length > 0) {
-            let singleProducts = [];
-            $('.solution-slider .owl-stage-outer .owl-stage .single-product').each((i, elm) => {
-                singleProducts.push(elm);
-            });
-
-            $('.solution-slider .owl-stage-outer').remove();
-            $('.solution-slider .owl-controls').remove();
-            $.each(singleProducts, (i, elm) => {
-                $('.solution-slider').append(elm);
-            })
-        }
-        else {
-            $('.solution-slider').remove();
-            $('.product-slide').append(solutionSlides);
-            $('.solution-slider').css('display', 'block');
-        }
+        $('.solution-slider').remove();
+        $('.product-slide').append(solutionSlides);
+        $('.solution-slider').css('display', 'block');
     }
 
-    setTimeout(() => {
-        changeEnterpriseProductsImg();
-    }, 100);
+    changeEnterpriseProductsImg();
+
 }
 
 function changeEnterpriseProductsImg() {
