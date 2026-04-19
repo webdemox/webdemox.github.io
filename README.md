@@ -33,8 +33,8 @@ Since these are pure static files, the easiest way to host them for free with a 
 ## 🔗 TikTok Developer Setup
 
 Once deployed, copy the generated links and paste them into your TikTok Developer console:
-- **Terms of Service URL:** `https://your-username.github.io/your-repo-name/terms.html`
-- **Privacy Policy URL:** `https://your-username.github.io/your-repo-name/privacy.html`
+- **Terms of Service URL:** `https://webdemox.github.io/your-repo-name/terms.html`
+- **Privacy Policy URL:** `https://webdemox.github.io/your-repo-name/privacy.html`
 
 ---
 *Designed for seamless compliance and approval.*
